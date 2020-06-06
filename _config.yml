@@ -1,1 +1,60 @@
-theme: jekyll-theme-cayman
+# Site
+name: "Li Linyu"
+title: "Li Linyu | Startup | iOS | Machine Learning | Blockchain"
+description: >-
+  Startup | iOS | Machine Learning | Blockchain
+logo: 'assets/images/avatar.png'
+favicon: 'assets/images/favicon.png'
+baseurl: ""
+url: "https://linyu.li"
+google_analytics: 'UA-29335311-1'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  li:
+    name: Li
+    display_name: Li
+    twitter: https://twitter.com/linyu_li
+    description: ""
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

@@ -3,9 +3,9 @@ layout: post
 title:  "Hide navigation bar space for SwiftUI"
 date:   2020-06-03 14:48:56 +0100
 categories: xcode swiftui
-featured: true
+featured: false
 image: assets/images/jumbotron.jpg
-hidden: true
+hidden: false
 ---
 
 The first solution is to hide the navigation bar:
